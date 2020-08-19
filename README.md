@@ -1,3 +1,3 @@
 # KoKoa Clone 2020
 
-CSS
+HTML & CSS
