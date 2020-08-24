@@ -159,3 +159,29 @@
 .reply:focus-within {
   transform: translateY(80px);
 }
+@keyframes bubblethrowing {
+  0% {
+    transform: translateX(-110px) rotateZ(-360deg);
+  }
+  50% {
+  }
+  100% {
+    transform: none;
+  }
+}
+.message__info .message__bubble {
+  animation: bubblethrowing 0.8s ease-in-out;
+}
+@keyframes bubblethrowing2 {
+  0% {
+    transform: translateX(110px) rotateZ(360deg);
+  }
+  50% {
+  }
+  100% {
+    transform: none;
+  }
+}
+.message-row--own .message__info .message__bubble {
+  animation: bubblethrowing2 0.8s ease-in-out;
+}
